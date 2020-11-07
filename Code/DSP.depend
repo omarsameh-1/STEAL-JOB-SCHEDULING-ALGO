@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1589583339 source:c:\users\amrahmed\desktop\c language\dsp\list_queue.c
+	<stdio.h>
+	<stdlib.h>
+	"List_Queue.h"
+
+1590163367 source:c:\users\amrahmed\desktop\c language\dsp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"List_q.h"
+
+1590445262 c:\users\amrahmed\desktop\c language\dsp\queue.h
+
+1590442761 source:c:\users\amrahmed\desktop\c language\dsp\queue.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1589583253 c:\users\amrahmed\desktop\c language\dsp\list_queue.h
+	"queue.h"
+
+1590164314 source:c:\users\amrahmed\desktop\c language\dsp\list_q.c
+	<stdio.h>
+	<stdlib.h>
+	"List_q.h"
+
+1590445293 c:\users\amrahmed\desktop\c language\dsp\list_q.h
+	"queue.h"
+
