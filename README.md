@@ -1,1 +1,6 @@
-# STEAL-JOB-SCHEDULING-ALGORITHM
+
+A steal job scheduling algorithm is an algorithm that is used to do task scheduling for various processors in a device, all processors are stored in a Linked List. Each processor has a list of threads or processes to be executed (deque). The processor gets the first element from the queue to execute the next process. When one process forks its moved back to the front of the next queue and a new thread started execution. If one processor executed all processes it has, it goes to steal a process from another processor and usually it takes the last element of the queue of the other processor to execute it.
+
+Fork happens when one of the processes in a particular queue takes time more than expected so it will be removed from its queue and inserted in the anther queue which has the smallest execution time.
+
+In this project we will use linked list and linked queue with more features added to them which is the ability to insert in the front and the ability to delete from the rear in the linked queue ,its node will be storing information which is the process id and the process execution time, the node of the linked list we be storing pointer of type queue instead of the basic data in the basic linked list, there for we will use nested data structure which is linked list stores queues.
